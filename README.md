@@ -2,4 +2,4 @@ This repository contains a Reinforcement Learning model for the game dangerstep 
 
 It also contains the dangerstep game as an executable.
 
-If you'd like to play dangerstep more competitively, please visit http://www.iwastrel.com/ for instructions. "# dangerstepRL" 
+If you'd like to play dangerstep more competitively, please visit http://www.iwastrel.com/ for instructions.
