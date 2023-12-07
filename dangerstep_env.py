@@ -6,8 +6,11 @@ from stable_baselines3.common.env_checker import check_env
 
 class DangerStepEnv(gym.Env):
 
+
     def __init__(self):
         #TODO: Start with a fixed grid of numbers rather than a randomized grid every time. This will probably help the agent learn more quickly.
+        #TODO: maybe even start with a very simple map, i.e. a very simple path to train on
+        #TODO: then make it more complicated. i.e. don't even start with a completely random map. maybe a single path with one solution then increase complexity
         # After it has learned then you can give it different grids to try on, probably.
         
         super(DangerStepEnv, self).__init__()
